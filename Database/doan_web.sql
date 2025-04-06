@@ -492,7 +492,7 @@ ALTER TABLE `tbl_type_product`
 --
 -- Chỉ mục cho bảng `tbl_uer`
 --
-ALTER TABLE `tbl_user`
+ALTER TABLE `tbl_uer`
   ADD PRIMARY KEY (`userId`);
 
 --
