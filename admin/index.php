@@ -96,10 +96,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
                                 <div class="activity-card-calendar">
                                    
                                         <div class="input-group mb-3">
-                                            <input id="datePickerId" value="2021-01-01" name="date1" type="date" data-date-inline-picker="true" />
+                                            <input id="datePickerId" value="2025-01-01" name="date1" type="date" data-date-inline-picker="true" />
                                         </div>
                                         <div class="input-group mb-3">
-                                            <input id="datePickerId" value="2022-12-30" name="date2" type="date" data-date-inline-picker="true" />
+                                            <input id="datePickerId" value="2025-12-30" name="date2" type="date" data-date-inline-picker="true" />
                                         </div>
                                         <div class="input-group1 mb-3">
                                             <input id="submit" name="submit" type="submit" value="Tìm kiếm">

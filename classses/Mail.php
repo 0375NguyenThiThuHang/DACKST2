@@ -35,7 +35,8 @@ class Mail
             $content .= "<p>We have received a request to re-issue your password recently.</p>";
             $content .= "<p>We have updated and sent you a new password</p>";
             $content .= "<p>Your new password is : </p> <b>$randPassword</b>";
-            $sendMai = SendMail::send($title, $content, $account['name'], $account['email']);
+            $sendMail = new SendMail();
+            $sendMai = $sendMail->send($title, $content, $account['name'], $account['email']);
             if ($sendMai) {
                 $hash = md5($randPassword);
                 $sqlUpdate = "UPDATE tbl_uer SET userPassword= '$hash' WHERE userId = ". $account['userId'];

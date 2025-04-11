@@ -57,12 +57,6 @@
                         </a>
                     </li>
                     <li>
-                        <a href="discountList.php">
-                            <span class="ti-folder"></span>
-                            <span>Voucher khuyễn mãi</span>
-                        </a>
-                    </li>
-                    <li>
                         <a href="account.php">
                             <span class="ti-settings"></span>
                             <span>Tài khoản</span>

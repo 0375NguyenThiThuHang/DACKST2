@@ -36,12 +36,11 @@ $countAdmin = $result['countadmin'];
 ?>
 <?php
 $statistical = new statistical();
-// Năm 2022 
-$getTong2022 = $statistical->gettongSPTheoNam(2022);
-$result2022 = $getTong2022->fetch_assoc();
-$tongSPNam2022 = $result2022['value_count'];
-$doanhThuNam2022 = $result2022['value_sumTT'];
-
+// Năm 2025
+$getTong2025 = $statistical->gettongSPTheoNam(2025);
+$result2025 = $getTong2025->fetch_assoc();
+$tongSPNam2025 = $result2025['value_count'];
+$doanhThuNam2025 = $result2025['value_sumTT'];
 ?>
 <style>
     #stacked,
@@ -115,8 +114,8 @@ $doanhThuNam2022 = $result2022['value_sumTT'];
             },
             {
                 y: '2022',
-                a: <?php echo $tongSPNam2022 ?>,
-                b: <?php echo $doanhThuNam2022 ?>
+                a: 120,
+                b: 85
             },
             {
                 y: '2023',
@@ -127,6 +126,11 @@ $doanhThuNam2022 = $result2022['value_sumTT'];
                 y: '2024',
                 a: 160,
                 b: 95
+            },
+            {
+                y: '2025',
+                a: <?php echo $tongSPNam2025 ?>,
+                b: <?php echo $doanhThuNam2025 ?>
             }
         ],
         config = {

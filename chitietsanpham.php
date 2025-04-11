@@ -544,13 +544,13 @@ if (isset($_POST['rep_submit']) && $_POST['rep_content'] != "") {
                                                 <?php if ($result_Details['quantity'] > 0) {
                                                 ?>
                                                     <span>Số lượng sản phẩm (<?php echo $result_Details['quantity'] ?> sản phẩm)</span>
-                                                    <?php
+                                                <?php
                                                 } else {
                                                 ?>
                                                     <span style="color: red ;">Sản phẩm đã hết hàng</span>
                                                 <?php
                                                 }
-                                                    ?> 
+                                                ?>
 
                                             </div>
                                             <div class="price-product">

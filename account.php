@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['save'])) {
                                 border-bottom: 1px solid #ccc;">
                                     <span class="ti-user" style="padding: 10px;border: 1px solid;border-radius: 50%;"></span>
                                     <a href="" style="text-decoration: none;padding: 0 10px;font-family: var(--font-family-monospace); color: black;
-                                font-weight: bold"> Thu Hằng</a>
+                                font-weight: bold"> Xin chào</a>
                                 </li>
                                 <li class="category">
                                     <span class="ti-user"></span>

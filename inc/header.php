@@ -584,7 +584,6 @@
                     else {
                 ?>
                     <a href="./login.php" style="text-decoration:none; color:black;">Đăng nhập</a>
-                    <a href="admin/login.php" style="text-decoration:none; color:black;">___Đăng nhập Admin</a>
                 <?php
                     } 
                 ?>
